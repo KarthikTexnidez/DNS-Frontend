@@ -1,4 +1,4 @@
-import Adminpanel from "../Adminpanel/Adminpanel";
+import AdminPanel from "./Adminpanel/Adminpanel";
 import Copyright from "./Copyright/Copyright";
 import Footer from "./Footer/Footer";
 import Home from "./Homepage/Home";
@@ -12,14 +12,13 @@ const App = () => {
 <Router>
 <Home/>
  <Routes>
- <Route path='/admin' element={<Adminpanel/>}/>
+ <Route path='/admin' element={<AdminPanel/>}/>
  </Routes>
     <Menu/>
     <Footer/>
     <Copyright/>
 </Router>
 
-    
     </>
   )
 }
