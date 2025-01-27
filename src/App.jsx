@@ -1,4 +1,4 @@
-import AdminPanel from "./Adminpanel/Adminpanel";
+import AdminPanel from "./Adminpanel/Adminpanel.jsx";
 import Copyright from "./Copyright/Copyright";
 import Footer from "./Footer/Footer";
 import Home from "./Homepage/Home";
