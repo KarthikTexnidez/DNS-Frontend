@@ -11,7 +11,7 @@ const Home = () => {
   
 
   const navMenu = [
-    { id: 1, name: 'Adminpanel', path: '/admin' },
+    { id: 1, name: 'Adminpanel', path: '/panel' },
     { id: 2, name: 'HOME', path: '/' },
     { id: 3, name: 'MENU', path: '/menu' },
     { id: 4, name: 'MAKE A RESERVATION', path: '/reservation' },
@@ -28,7 +28,7 @@ const Home = () => {
                 <a href={option.path}><li>{option.name}</li></a>
               </ul>
             ))}
-            <Link to='/admin'><img src={navbaricon} id="navbar-icon" alt="" /></Link>
+            <Link to='/panel'><img src={navbaricon} id="navbar-icon" alt="" /></Link>
           </div>
         </div>
         <div className="color">

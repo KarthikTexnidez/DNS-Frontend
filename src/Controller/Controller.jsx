@@ -1,9 +1,10 @@
 import {BrowserRouter as Router, Routes, Route} from 'react-router-dom'
 import Home from '../Homepage/Home'
-import Adminpanel from '../Adminpanel/Adminpanel'
+
 import Menu from '../Menu/Menu'
 import Footer from '../Footer/Footer'
 import Copyright from '../Copyright/Copyright'
+import Panel from '../Panel/Panel'
 
 
 const Controller = () => {
@@ -14,7 +15,7 @@ const Controller = () => {
 
     <Routes>
 
-   <Route path='/admin' element={<Adminpanel/>}></Route>
+   <Route path='/panel' element={<Panel/>}></Route>
 
     </Routes>
 
