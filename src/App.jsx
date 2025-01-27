@@ -1,23 +1,11 @@
-import AdminPanel from "./Adminpanel/Adminpanel.jsx";
-import Copyright from "./Copyright/Copyright";
-import Footer from "./Footer/Footer";
-import Home from "./Homepage/Home";
-import Menu from "./Menu/Menu";
-import { Route, BrowserRouter as Router, Routes } from "react-router-dom";
+import Controller from "./Controller/Controller";
+
 
 const App = () => {
   return (
     <>
 
-<Router>
-<Home/>
- <Routes>
- <Route path='/admin' element={<AdminPanel/>}/>
- </Routes>
-    <Menu/>
-    <Footer/>
-    <Copyright/>
-</Router>
+<Controller/>
 
     </>
   )
