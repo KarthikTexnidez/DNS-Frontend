@@ -12,7 +12,7 @@ const App = () => {
 <Router>
 <Home/>
  <Routes>
- <Route path='/admin' element={<Adminpanel/>}></Route>
+ <Route path='/admin' element={<Adminpanel/>}/>
  </Routes>
     <Menu/>
     <Footer/>
