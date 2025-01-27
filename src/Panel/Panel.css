@@ -47,8 +47,10 @@
 
 input::placeholder
 {
-    font-family: 'Oswald';
+    font-family: 'Kelly Slab';
     font-size: 14px;
+    font-weight: 600;
+    color:  #121618;
 }
 
 input
@@ -56,6 +58,8 @@ input
     padding-left: 10px;
     border: 2px solid rgb(231, 231, 231);
     border-radius: 5px;
+    font-weight: 600;
+    font-family: 'Oswald';
 }
 
 .inputfield
@@ -151,17 +155,12 @@ input
     height: auto;
     /* background-color: cadetblue; */
     font-family: 'light';
-    font-size: 13px;
+    font-size: 100px;
     color: gray;
     font-weight: 100;
 
 }
 
-#facebookicon
-{
-    width: 25px;
-    height: 25px;
-}
 
 
 
