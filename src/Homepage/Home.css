@@ -1,0 +1,484 @@
+.hero{
+    width: 100%;
+    height: auto;
+}
+
+.nav-bar{
+    width: 100%;
+    height: 100px;
+    background-color: #121618;
+}
+
+.nav-options{
+    /* background-color: blue; */
+    display: flex;
+    float: right;
+    gap: 40px;
+    margin-top: 60px;
+    margin-right: 150px;
+    color: white;
+}
+
+.nav-bar ul
+{
+    /* background-color: yellow; */
+    text-align: right;
+}
+
+.nav-bar li{
+    list-style: none;
+    font-size: 18px;
+    font-weight: 400;
+    font-family: 'Oswald';
+    color: white;
+    text-decoration: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+.nav-bar a :active{
+    color: #0796EF;
+}
+
+.banner{
+    width: 100%;
+    height: 411px;
+    overflow: hidden;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    
+}
+
+.banner img{
+    width: 1920px;
+    opacity: 30%;
+
+}
+
+.color{
+    width: auto;
+    height: auto;
+    /* background-color: aqua; */
+    z-index: 1;
+    position: absolute;
+    margin-top: -46px;
+    margin-left: 150px;
+    display: flex;
+    gap: 15px;
+    line-height: 50px;
+}
+
+.color img{
+    width: 96PX;
+    height: 90px;
+}
+
+.color span
+{
+    color: #0796EF;
+    font-family: 'Oswald';
+}
+
+.color h3{
+    color: white;
+    font-weight: 400;
+    font-size: 35px;
+    font-family: 'Oswald';
+
+}
+
+#navbar-icon{
+    width: 25px;
+    height: 20px;
+}
+
+.hero-para{
+    width: 100%;
+    height: auto;
+    background-color: #0796EF;
+    z-index: 1;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-menu{
+    width: auto;
+    height: 300px;
+    /* background-color: yellow; */
+    z-index: 2;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.hero-menu h3{
+    color: white;
+    text-shadow: 3px 3px 1px rgba(128, 0, 32, 0.8);
+    font-size: 75px;
+    font-family: 'Oswald';
+    font-weight: 600;
+}
+
+.hero-menu p{
+    font-size: 18px;
+    color: #BBBBBB;
+    font-family: 'Kelly Slab';
+    font-weight: 100;
+}
+
+.menu-options{
+    width: 100%;
+    height: 100px;
+    overflow: hidden;
+    background-repeat: repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.menu-options img{
+    width: 1920px;
+    height: 100%;
+    background-size: cover;
+}
+
+.menu-buttons{
+    width: auto;
+    height: 70px;
+    /* background-color: rebeccapurple; */
+    z-index: 1;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.menu-buttons button{
+    width: 135px;
+    height: 60px;
+    border: 2px solid #0796EF;
+    font-family: 'Oswald';
+    font-weight: 500;
+    background-color: black;
+    color: white;
+    font-size: 18px;
+}
+
+
+.food-items{
+    width: 100%;
+    height: 800px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.food-items img{
+    width: 100%;
+    height: 100%;
+}
+
+
+.food-list{
+    width: 1450px;
+    height: 500px;
+    /* background-color: yellow; */
+    z-index: 1;
+    position: absolute;
+    border: 1px solid white;
+    
+}
+
+#leftimg{
+    width: 190px;
+    height: 281px;
+    float: left;
+    margin-left: -50px;
+    margin-top: -150px;
+}
+
+#rightimg{
+    width: 190px;
+    height: 281px;
+    float: right;
+    /* margin-left: -50px; */
+    margin-top: 250px;
+}
+
+
+.food-heading{
+    width: 100%;
+    height: 100%;
+    /* background-color: yellow; */
+    z-index: 1;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.foood-heading{
+    width: auto;
+    height: auto;
+    /* background-color: yellow; */
+}
+
+.foood-heading h3{
+    font-family: 'Oswald';
+    font-weight: 600;
+    color: white;
+    text-shadow: 3px 3px 1px rgba(128, 0, 32, 0.8);
+    font-size: 50px;
+}
+
+.foood-lists{
+    width: 85%;
+    height: 60%;
+    font-size: 40px;
+    /* background-color: rgb(95, 95, 0); */
+    overflow-y: auto;
+}
+
+.foood-lists::-webkit-scrollbar{
+    width: 10px;
+}
+
+
+.foood-lists::-webkit-scrollbar-track {
+    display: none;
+  }
+
+  .foood-lists::-webkit-scrollbar-thumb {
+    background: #ffffff; /* Dark grey color for the thumb */
+    border-radius: 10px; /* Rounded corners for the thumb */
+  }
+
+.foood-lists h4{
+   color: white;
+   font-family: 'Oswald';
+   font-weight: 400;
+}
+
+.foood-lists p {
+    font-family: 'Kelly Slab';
+    font-size: 18px;
+    color: #BBBBBB;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* MediaQueryFrom - 1600px */
+
+
+@media (max-width:1600px) {
+    .food-list{
+        width: 1250px;
+    }
+}
+
+
+
+
+
+
+
+/* MediaQueryFrom - 1400px */
+
+@media (max-width:1400px) {
+    .nav-options{
+        margin-right: 100px;
+    }
+
+    .color{
+        margin-left: 100px;
+        margin-top: -40px;
+    }
+
+    .color img{
+        width: 86PX;
+        height: 80px;
+    }
+
+    
+    .color h3{
+        font-size: 30px;
+    }
+
+    .food-list{
+        width: 1100px;
+    }
+
+}
+
+
+
+
+
+
+
+/* MediaQueryFrom - 1200px */
+
+@media (max-width:1200px) {
+    .nav-options{
+        margin-right: 60px;
+        gap: 30px;
+    }
+
+    .color{
+        margin-left: 60px;
+    }
+
+    .food-list{
+        width: 900px;
+    }
+}
+
+
+
+
+
+/* MediaQueryFrom - 992px */
+
+@media (max-width:992px) {
+    .nav-options ul{
+        display: none;
+    }
+
+    .nav-options{
+        margin-top: 40px;
+    }
+
+    .color{
+        margin-left: 60px;
+    }
+
+    .food-list{
+        width: 700px;
+        height: 400px;
+    }
+
+    #rightimg{
+width: 100px;
+height: 200px;
+
+    }
+    
+    #leftimg{
+        width: 100px;
+        height: 200px;
+        margin-left: 0px;
+    margin-top: -50px;
+    }
+}
+
+/* MediaQueryUntil - 992px */
+
+@media (min-width:992px) {
+    #navbar-icon{
+        display: none;
+    }
+
+
+}
+
+
+
+/* MediaQueryFrom - 768px */
+
+@media (max-width:768px) {
+    .food-list{
+        width: 90%;
+        margin-top: -220px;
+        height: 446px;
+    }
+
+    #rightimg{
+width: 80px;
+height: 180px;
+margin-top: 300px;
+    }
+    
+    #leftimg{
+        width: 80px;
+        height: 180px;
+    }
+
+    .menu-buttons button{
+        width: 80px;
+        height: 35px;
+        font-size: 12px;
+    }
+
+    .foood-heading h3{
+        font-size: 30px;
+    }
+
+    .food-items{
+        height: 535px;
+    }
+
+    .food-list{
+        margin-top: 0px;
+    }
+
+    .menu-options{
+        height: 60px;
+    }
+    
+    #rightimg{
+        width: 100px;
+        height: 200px;
+        
+            }
+            
+            #leftimg{
+                width: 70px;
+                height: 110px;
+                margin-left: 5%;
+            margin-top: 0px;
+            }
+            
+
+            .color h3{
+                display: none;
+            }
+
+            .color{
+                width: 100%;
+                height: auto;
+                /* background-color: yellow; */
+                margin-left: 0;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+
+    
+}
+
+
+
+
+

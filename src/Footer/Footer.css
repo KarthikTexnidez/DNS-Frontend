@@ -1,0 +1,225 @@
+.footer-black{
+    width: 100%;
+    height: 300px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.connect{
+    width: 400px;
+    height: 150px;
+    /* background-color: yellow; */
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid white;
+    border-radius: 15px;
+}
+
+.connect h3{
+    font-weight: 500;
+    font-family: 'Oswald';
+    color: #0796EF;
+}
+
+.connect img{
+    width: 18px;
+}
+
+.phone{
+    display: flex;
+    width: auto;
+    height: auto;
+    gap: 10px;
+    margin-top: 15px;
+}
+
+.phone h4{
+    font-family: 'Oswald';
+    font-size: 16px;
+    font-weight: 400;
+    color: #857878;
+}
+
+.email{
+    display: flex;
+    width: auto;
+    height: auto;
+    gap: 10px;
+}
+
+.email h4{
+    font-family: 'Oswald';
+    font-size: 16px;
+    font-weight: 400;
+    color: #857878;    
+}
+
+.dns{
+    width: 400px;
+    height: 150px;
+    /* background-color: yellow; */
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid white;
+    border-radius: 15px;
+}
+
+.dns h3{
+    font-weight: 500;
+    font-family: 'Oswald';
+    color: #857878;
+    font-size: 35px;
+}
+
+.dns span{
+    font-weight: 500;
+    font-family: 'Oswald';
+    color: #0796EF;
+    font-size: 35px;
+}
+
+#dnslogo{
+    width: 86px;
+    /* height: 80px; */
+    margin-top: -80px;
+}
+
+.footer-logos{
+    width: auto;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.footer-logos img{
+    width: 15px;
+    height: 15px;
+}
+
+
+.find{
+    width: 400px;
+    height: 150px;
+    /* background-color: yellow; */
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid white;
+    border-radius: 15px;
+    gap: 10px;
+}
+
+.find h3{
+    font-weight: 500;
+    font-family: 'Oswald';
+    color: #0796EF;
+}
+
+.find img{
+    width: 20px;
+    height: 20px;
+}
+
+.location{
+    display: flex;
+    width: auto;
+    height: auto;
+    gap: 15px;
+}
+
+.location h4{
+    font-family: 'Oswald';
+    font-size: 16px;
+    font-weight: 400;
+    color: #857878;    
+}
+
+
+
+
+
+@media (max-width:1400px) {
+
+    .footer-black{
+        gap: 20px;
+    }
+
+    .connect{
+        width: 280px;
+    }
+
+    .dns{
+        width: 280px;
+    }
+
+    .find{
+        width: 280px;
+    }
+    
+}
+
+
+@media (max-width:768px) {
+    .footer-black{
+        flex-direction: column;
+        height: auto;
+        padding-top: 50px;
+        gap: 30px;
+    }
+
+    .footer-black{
+        gap: 20px;
+    }
+
+    .connect{
+        width: 450px;
+    }
+
+    .dns{
+        width: 450px;
+    }
+
+    .find{
+        width: 450px;
+    }
+}
+
+
+@media (max-width:500px) {
+    .footer-black{
+        flex-direction: column;
+        height: auto;
+        padding-top: 50px;
+        gap: 30px;
+        
+    }
+
+    .footer-black{
+        gap: 20px;
+    }
+
+    .connect{
+        width: 90%;
+        order: 2;
+    }
+
+    .dns{
+        width: 90%;
+        order: 1;
+    }
+
+    .find{
+        width: 90%;
+        order: 3;
+    }
+}
