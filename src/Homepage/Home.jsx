@@ -25,7 +25,7 @@ const Home = () => {
           <div className="nav-options">
             {navMenu.map((option) => (
               <ul key={option.id}>
-                <a href={option.path}><li>{option.name}</li></a>
+                <Link to={option.path}><li>{option.name}</li></Link>
               </ul>
             ))}
             <Link to='/panel'><img src={navbaricon} id="navbar-icon" alt="" /></Link>
