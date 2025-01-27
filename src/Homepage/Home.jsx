@@ -9,7 +9,7 @@ const Home = () => {
   
 
   const navMenu = [
-    { id: 1, name: 'Adminpanel', path: '/admin' },
+    { id: 1, name: 'Adminpanel', path: '/aadmin' },
     { id: 2, name: 'HOME', path: '/' },
     { id: 3, name: 'MENU', path: '/menu' },
     { id: 4, name: 'MAKE A RESERVATION', path: '/reservation' },
@@ -26,7 +26,7 @@ const Home = () => {
                 <a href={option.path}><li>{option.name}</li></a>
               </ul>
             ))}
-            <a href="/admin"><img src={navbaricon} id="navbar-icon" alt="" /></a>
+            <a href="/aadmin"><img src={navbaricon} id="navbar-icon" alt="" /></a>
           </div>
         </div>
         <div className="color">
