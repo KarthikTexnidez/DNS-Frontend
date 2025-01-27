@@ -14,7 +14,7 @@ const Controller = () => {
 
     <Routes>
 
-   <Route path='/aadmin' element={<Adminpanel/>}></Route>
+   <Route path='/admin' element={<Adminpanel/>}></Route>
 
     </Routes>
 

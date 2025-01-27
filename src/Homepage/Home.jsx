@@ -2,6 +2,8 @@ import './Home.css';
 import bannerone from './assets/banner-bg-one.jpg';
 import logo from './assets/DNS Logo one.png';
 import navbaricon from './assets/navbar-icon.png';
+import { Link } from 'react-router-dom';
+
 
 
 
@@ -9,7 +11,7 @@ const Home = () => {
   
 
   const navMenu = [
-    { id: 1, name: 'Adminpanel', path: '/aadmin' },
+    { id: 1, name: 'Adminpanel', path: '/admin' },
     { id: 2, name: 'HOME', path: '/' },
     { id: 3, name: 'MENU', path: '/menu' },
     { id: 4, name: 'MAKE A RESERVATION', path: '/reservation' },
@@ -26,7 +28,7 @@ const Home = () => {
                 <a href={option.path}><li>{option.name}</li></a>
               </ul>
             ))}
-            <a href="/aadmin"><img src={navbaricon} id="navbar-icon" alt="" /></a>
+            <Link to='/admin'><img src={navbaricon} id="navbar-icon" alt="" /></Link>
           </div>
         </div>
         <div className="color">
