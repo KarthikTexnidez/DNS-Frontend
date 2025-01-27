@@ -475,6 +475,19 @@ margin-top: 300px;
                 align-items: center;
             }
 
+            .foood-lists h4{
+                color: white;
+                font-family: 'Oswald';
+                font-weight: 400;
+                font-size: 25px;
+             }
+             
+             .foood-lists p {
+                 font-family: 'Kelly Slab';
+                 font-size: 18px;
+                 color: #BBBBBB;
+             }
+
     
 }
 

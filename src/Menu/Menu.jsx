@@ -82,7 +82,7 @@ const Menu = () => {
                   {selectedOption.map((item, index) => (
                     <li key={index}>
                       <h4>
-                        {item.name}............$ {item.price}
+                        {item.name}.........$ {item.price}
                       </h4>
                       <p>{item.description}</p>
                     </li>
