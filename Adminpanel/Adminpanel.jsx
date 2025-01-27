@@ -25,7 +25,7 @@ const Adminpanel = () => {
     console.log("Data Sent:", TotalValue);
 
     axios
-      .post("http://localhost:8080/admin", TotalValue)
+      .post("https://dns-backend-1.onrender.com/admin", TotalValue)
       .then((result) => {
         console.log("Response from backend:", result.data);
         alert("Data added , Please Refresh Web Page");

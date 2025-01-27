@@ -16,7 +16,7 @@ const Menu = () => {
 
   useEffect(() => {
     axios
-      .get("http://localhost:8080/data")
+      .get("https://dns-backend-1.onrender.com/data")
       .then((result) => {
         setMenuItems((prevState) => ({
           ...prevState,
@@ -82,7 +82,7 @@ const Menu = () => {
                   {selectedOption.map((item, index) => (
                     <li key={index}>
                       <h4>
-                        {item.name}............{item.price}
+                        {item.name}............$ {item.price}
                       </h4>
                       <p>{item.description}</p>
                     </li>
