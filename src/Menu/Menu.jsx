@@ -4,7 +4,7 @@ import { useEffect, useState } from "react";
 import leftimg from "./assets/image 39 (1) 1.png";
 import rightimg from "./assets/cocktail1 1.png";
 import axios from "axios";
-import { RotatingLines } from "react-loader-spinner"; // Import the loader
+import { RotatingLines } from "react-loader-spinner"; 
 
 const Menu = () => {
   const [selectedOption, setSelectedOption] = useState([]);
@@ -14,10 +14,10 @@ const Menu = () => {
     drinks: [],
     brunch: [],
   });
-  const [loading, setLoading] = useState(true); // Add loading state
+  const [loading, setLoading] = useState(true); 
 
   useEffect(() => {
-    setLoading(true); // Start loading
+    setLoading(true); 
     axios
       .get("https://dns-backend-1.onrender.com/data")
       .then((result) => {
@@ -27,11 +27,11 @@ const Menu = () => {
           drinks: result.data[0]?.drinks || [],
           brunch: result.data[0]?.brunch || [],
         }));
-        setLoading(false); // Stop loading after data is fetched
+        setLoading(false); 
       })
       .catch((err) => {
         console.log(err);
-        setLoading(false); // Stop loading even if there's an error
+        setLoading(false); 
       });
   }, []);
 
